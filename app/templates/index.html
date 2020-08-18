@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Document</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-		<h2>Hello temlate,  {{ n }}</h2>
+{% block title %}
+	Index page
+{% endblock %}
 
-</body>
-</html>
+
+{% block content_title %}
+	Index page
+{% endblock %}
+
+{% block content %}
+	Some content
+{% endblock %}
