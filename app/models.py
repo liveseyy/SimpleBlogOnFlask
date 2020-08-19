@@ -1,3 +1,5 @@
+"""Формирование поста для базы данных"""
+
 from app import db
 from datetime import datetime
 import re
@@ -6,6 +8,7 @@ import re
 def slugify(s):
     pattern = r'[^\w+]'
     return re.sub(pattern, '-', s)
+
 
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)

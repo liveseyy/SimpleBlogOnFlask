@@ -1,3 +1,5 @@
+"""Конфигурация основного приложения и базы данных"""
+
 class Configuration:
     DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False

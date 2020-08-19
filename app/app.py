@@ -1,3 +1,5 @@
+"""Создание основного приложения app + подкл. конфига и базы данных db"""
+
 from flask import Flask
 from config import Configuration
 from flask_sqlalchemy import SQLAlchemy

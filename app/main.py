@@ -1,3 +1,5 @@
+"""Запуск основного приложения app и подкл. Blueprint страницы /blog"""
+
 from app import app
 from app import db
 import view
