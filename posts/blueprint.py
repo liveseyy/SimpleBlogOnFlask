@@ -30,7 +30,7 @@ def create_post():
         except:
             print('Something wrong')
 
-        return  redirect(url_for('posts.index'))
+        return redirect(url_for('posts.index'))
 
     form = PostForm()
     return render_template('posts/create_post.html', form=form)
