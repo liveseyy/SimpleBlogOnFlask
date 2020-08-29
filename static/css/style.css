@@ -1,0 +1,25 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+nav{
+	height: 
+}
+main {
+    padding-top: 20px;
+}
+footer {
+	text-align: center;
+	color: white;
+	background-color: #459257;
+	min-height: 30px;
+	padding: 3px 0;
+}
+footer span {
+	text-decoration: underline;	
+}
