@@ -16,8 +16,7 @@ main {
 footer {
 	text-align: center;
 	color: white;
-	background-color: #459257;
-	min-height: 30px;
+    background: #549e1b;
 	padding: 3px 0;
 }
 footer span {
